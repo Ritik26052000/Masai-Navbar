@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+    .head {
+      box-sizing: border-box;
+      padding: 20px 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    * {
+      font-family: "Open Sans", sans-serif;
+    }
+    .spans {
+      margin-left: 10vw;
+      display: inline-block;
+    }
+    span {
+      margin-left: 2vw;
+    }
+    .button {
+      align-content: end;
+      margin-left: 15vw;
+      display: flex;
+      justify-content: space-evenly;
+    }
+    button:nth-of-type(1) {
+      padding: 12px 8px;
+      background-color: #043335;
+      border: none;
+      color: rgb(82, 86, 202);
+      border-radius: 8px;
+    }
+    button:nth-of-type(2) {
+      border: 1px solid red;
+      background-color: white;
+      padding: 10px 16px;
+      border-radius: 8px;
+      color: red;
+      display: ;
+    }
+    #refer {
+      border: none;
+      color: #7175cd;
+      background-color: #e5feff;
+    }
+    #refer img {
+      width: 25px;
+      position: relative;
+      top: 9px;
+    }
+  </style>
+  <body>
+    <header>
+      <nav class="head">
+        <img
+          src="https://masai-website-images.s3.ap-south-1.amazonaws.com/logo.png"
+          alt=""
+        />
+        <div class="spans">
+          <span>COURCES</span>
+          <span>FEES & ISA</span>
+          <span>ABOUT US</span>
+          <span>HIRE FROM US</span>
+          <span>FAQ</span>
+          <span>EVENTS</span>
+        </div>
+        <div class="button">
+          <button id="refer">
+            REFER & EARN <img src="/image.png" alt="" />
+          </button>
+          <button>LOG IN</button>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>
